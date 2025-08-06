@@ -17,6 +17,7 @@ const Users = () => {
         <UserCard key={user.id} user={user} />
       ))}
     </div>
+    
   );
 };
 
